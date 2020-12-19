@@ -1,7 +1,7 @@
 package entities;
 
 public class BookEntity {
-    // TODO: 19.12.2020 requestleri entity'den oluştur(gson).
+    // TODO: 19.12.2020 requestleri entity'den oluşturabilirsin(gson).
     private int id;
     private String title;
     private String author;

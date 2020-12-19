@@ -218,7 +218,7 @@ public class BookAPITests extends APITestCase {
                 .then()
                 .statusCode(HttpStatus.SC_CREATED);
 
-        //STEP 2: Try to request the same payload again
+        //STEP 2: Try to send the same payload again
         request
                 .contentType("application/json")
                 .body(putRequestParams.toString())
